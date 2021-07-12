@@ -1,0 +1,19 @@
+body{
+	background: url("../img/fondo-verde.jpg");
+	background-attachment: fixed;
+	background-repeat: round;
+	
+	
+}
+
+#logo{
+	background: #037c00;
+}
+
+#menu ul li:hover{
+	background: #037c00;
+}
+
+.button-more{
+	background: #037c00;
+}
