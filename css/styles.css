@@ -174,7 +174,7 @@ footer {
 	height: 100px;
 }
 
-#to-green,
+#to-brown,
 #to-red,
 #to-black{
 	width: 25px;
@@ -187,8 +187,8 @@ footer {
 	cursor: pointer;
 }
 
-#to-green{
-	background: #235E3D;
+#to-brown{
+	background: brown;
 }
 
 #to-red{
@@ -223,7 +223,7 @@ footer {
 	font-family: Helvetica, Arial;
 	color: #333;
 	border: 5px dashed #333;
-	width: 30%;
+	width: 22%;
 	padding: 30px;
 	margin: 0px auto;
 }
@@ -249,11 +249,61 @@ footer {
     width: 100%;	
 }
 
-.cut{
-	height: 1200px;
+.cut, .promotion{ 
+	height: 800px;
 }
 
 #logout{
 	text-decoration: none;
     color: blue;
 }
+
+
+@media only screen and (max-width: 1440px) {
+
+
+#reloj{
+	width: 29%;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+	#reloj{
+		width: 40%;
+	}
+
+	#sidebar{
+		margin-top: 6%;
+	}
+
+	#sidebar p{
+		text-align: initial;
+	}
+	
+	}
+
+@media only screen and (max-width: 768px) {
+
+	#promotion{
+		height: 419px;
+
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+
+	#global{
+		width: 84%;
+
+
+}
+
+}
+

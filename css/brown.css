@@ -7,13 +7,13 @@ body{
 }
 
 #logo{
-	background: #037c00;
+	background: brown;
 }
 
 #menu ul li:hover{
-	background: #037c00;
+	background: brown;
 }
 
 .button-more{
-	background: #037c00;
+	background: brown;
 }
