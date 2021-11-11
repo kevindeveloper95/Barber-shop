@@ -20,7 +20,7 @@ $(document).ready(function(){
 			{
 				title: 'SERVICIOS',
 				date: 'Publicado el dia ' + moment().date() + " de " + moment().format("MMMM") + " del " + moment().format("YYYY"),
-				content: 'Los servicios incluidos en nuestra barberia van desde cortes de cabello hasta arreglos de barba incluyendo masaje y mascarillas rejuvenecedoras, tambien cuenta con una amplia gama de productos especialmente diseñados para la comunidad masculina a la venta y como plus puedes tomar cualquier bebida que tenemos a nuestra disposicion mientras esperas comodamente a que te realizen el corte o el arreglo que solicitaste'
+				content: 'Los servicios incluidos en nuestra barberia van desde cortes de cabello hasta arreglos de barba incluyendo masaje y mascarillas rejuvenecedoras, tambien cuenta con una amplia gama de productos especialmente diseñados para la comunidad masculina a la venta y como plus puedes tomar cualquier bebida que tenemos a nuestra disposicion mientras esperas comodamente a que te realizen el corte o el arreglo que solicitaste.'
 			},
 			{
 				title: 'EXPERENCIA',
@@ -31,6 +31,11 @@ $(document).ready(function(){
 				title: 'PUBLICO AL QUE NOS DIRIGIMOS',
 				date: 'Publicado el dia ' + moment().date() + " de " + moment().format("MMMM") + " del " + moment().format("YYYY"),
 				content: 'Nuestra barberia esta exlusivamente enfocada al publico masculino de cualquier edad que quiera vivir una experencia completamente nueva y muy reconfortante.'
+			},
+			{
+				title: '$ PRECIOS',
+				date: 'Publicado el dia ' + moment().date() + " de " + moment().format("MMMM") + " del " + moment().format("YYYY"),
+				content: 'Corte de pelo: $180' ,
 			},
 			
 		];
@@ -43,7 +48,7 @@ $(document).ready(function(){
 					<p>
 						${item.content}
 					</p>
-					<a href="#" class="button-more">Leer más</a>
+					<a href="about.html" class="button-more">Leer mas</a>
 				</article>
 			`;
 
@@ -111,6 +116,7 @@ $(document).ready(function(){
 	if(window.location.href.indexOf('about') > -1){
 		$("#acordeon").accordion();
 	}
+
 
 
 	// Reloj
